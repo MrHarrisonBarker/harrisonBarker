@@ -1,0 +1,57 @@
+.SocialLink {
+    text-decoration: none;
+    color: black;
+}
+
+.SocialLink:hover {
+    text-decoration: none;
+    /* color: black; */
+}
+
+.socialIcon {
+    color: black;
+    margin: 0 5px 0 0;
+    transition: font-size 0.2s, color .2s;
+}
+
+.socialIcon:hover {
+    font-size: 1.5rem;
+}
+
+#twitter:hover {
+    color: #1DA1F2 ;
+}
+
+#gitHub:hover {
+    color: #6cc644 ;
+}
+
+#instagram:hover {
+    color: #E1306C ;
+}
+
+#mail:hover {
+    color: #D44638 ;
+}
+
+#profileImage {
+    width: 90px;
+    border-radius: 50%;
+    transition: transform .2s;
+}
+
+#profileImage:hover {
+    transform: scale(1.1);
+}
+
+.h-95 {
+    height: 95% !important
+}
+    
+.h-5 { 
+    height: 5% !important;
+}
+
+.ProjectsLink {
+    color: rgb(33, 33, 33);
+}

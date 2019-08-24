@@ -1,0 +1,36 @@
+<div class="container h-100">
+  <div class="row my-3 justify-content-center align-items-center">
+    <!-- <div class="col-2 align-self-center"> -->
+    <button class="btn btn-outline-secondary" [routerLink]="['/']" routerLinkActive="router-link-active"><i
+        class="fas fa-arrow-left"></i> Back</button>
+    <!-- </div> -->
+  </div>
+  <div class="row my-3">
+    <div class="col">
+      <div class="card Project">
+        <img *ngIf="project.Image" class="card-img-top ProjectImage" src="{{project.Image}}">
+        <div class="card-body">
+          <div class="h2">{{project.Name}}</div>
+
+          <div class="h4"><i>{{project.LogLine}}</i></div>
+
+          <div class="p">{{project.Description}}</div>
+
+          <a href="{{project.Repo}}" class="GitHubLink" target="_blank">
+            <p class="lead"><i id="gitHub" class="fab fa-github socialIcon"></i>{{project.Name}}
+            </p>
+          </a>
+
+          <div class="p">{{project.URL}}</div>
+
+          <a *ngFor="let tech of project.Technologies" class="badge CustomBadge">{{tech}}</a>
+
+          <hr>
+
+          <div markdown [data]="projectReadme" class="ReadMe"></div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

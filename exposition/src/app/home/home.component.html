@@ -1,0 +1,11 @@
+<div class="h-100">
+  <app-details></app-details>
+</div>
+
+
+<div class="container h-100 ">
+  <div class="row">
+    <app-project-preview *ngFor="let project of projects" [project]="project"
+      class="col-12 col-md-6 col-lg-6 col-xl-4 my-3"></app-project-preview>
+  </div>
+</div>

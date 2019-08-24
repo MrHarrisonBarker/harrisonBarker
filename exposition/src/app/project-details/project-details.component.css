@@ -1,0 +1,38 @@
+p {
+    margin-bottom: 0;
+}
+
+.ReadMe {
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border: solid #0000001a 1px;
+    border-radius: 1px;
+}
+
+.ProjectImage {
+    padding: 10px;
+}
+
+.GitHubLink {
+    text-decoration: none;
+    color: black;
+}
+
+.GitHubLink:hover {
+    text-decoration: none;
+    /* color: black; */
+}
+
+.socialIcon {
+    color: black;
+    margin: 0 5px 0 0;
+    transition: font-size 0.2s, color .2s;
+}
+
+.socialIcon:hover {
+    font-size: 1.5rem;
+}
+
+#gitHub:hover {
+    color: #6cc644 ;
+}
