@@ -1,38 +1,44 @@
 p {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .ReadMe {
-    padding: 1rem;
-    background-color: #f8f9fa;
-    border: solid #0000001a 1px;
-    border-radius: 1px;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border: solid #0000001a 1px;
+  border-radius: 1px;
 }
 
 .ProjectImage {
-    padding: 10px;
+  padding: 10px;
+  /*border-bottom: solid #0000001a 1px;*/
+  box-shadow: 0px 5px 6px -6px #00000073;
 }
 
 .GitHubLink {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .GitHubLink:hover {
-    text-decoration: none;
-    /* color: black; */
+  text-decoration: none;
+  /* color: black; */
 }
 
 .socialIcon {
-    color: black;
-    margin: 0 5px 0 0;
-    transition: font-size 0.2s, color .2s;
+  color: black;
+  margin: 0 5px 0 0;
+  transition: font-size 0.2s, color .2s;
 }
 
 .socialIcon:hover {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 #gitHub:hover {
-    color: #6cc644 ;
+  color: #6cc644;
+}
+
+#Back {
+  cursor: pointer;
 }

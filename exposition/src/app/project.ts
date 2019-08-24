@@ -9,6 +9,9 @@ export class Project {
     URL?: string;
     Repo: string;
     Image?: string;
+    ImagePreview?: string;
+
+    IsFinished: boolean;
 
     Technologies?: string[];
 

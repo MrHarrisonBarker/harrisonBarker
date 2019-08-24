@@ -1,13 +1,14 @@
 <div class="container h-100">
   <div class="row my-3 justify-content-center align-items-center">
     <!-- <div class="col-2 align-self-center"> -->
-    <button class="btn btn-outline-secondary" [routerLink]="['/']" routerLinkActive="router-link-active"><i
-        class="fas fa-arrow-left"></i> Back</button>
+    <div class="p-3" id="Back" [routerLink]="['/']" routerLinkActive="router-link-active"><i
+      class="fas fa-arrow-left"></i> Back
+    </div>
     <!-- </div> -->
   </div>
   <div class="row my-3">
     <div class="col">
-      <div class="card Project">
+      <div class="card Project shadow-sm">
         <img *ngIf="project.Image" class="card-img-top ProjectImage" src="{{project.Image}}">
         <div class="card-body">
           <div class="h2">{{project.Name}}</div>
@@ -21,13 +22,21 @@
             </p>
           </a>
 
-          <div class="p">{{project.URL}}</div>
+          <div class="p"><a href="{{project.URL}}">{{project.URL}}</a></div>
 
           <a *ngFor="let tech of project.Technologies" class="badge CustomBadge">{{tech}}</a>
 
-          <hr>
 
-          <div markdown [data]="projectReadme" class="ReadMe"></div>
+
+          <div *ngIf="projectReadme">
+
+            <hr>
+
+            <div class="h5">Readme</div>
+
+            <div markdown [data]="projectReadme" class="ReadMe"></div>
+
+          </div>
 
         </div>
       </div>

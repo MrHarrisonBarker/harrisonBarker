@@ -47,11 +47,15 @@
 .h-95 {
     height: 95% !important
 }
-    
-.h-5 { 
+
+.h-5 {
     height: 5% !important;
 }
 
 .ProjectsLink {
     color: rgb(33, 33, 33);
+}
+
+.CustomJumbo {
+  border-radius: 0;
 }

@@ -9,10 +9,12 @@ import { Observable } from 'rxjs';
 })
 export class MajorTomService {
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {
+    localStorage.setItem('Projects',JSON.stringify(projects));
+  }
 
   public getprojects(): Project[] {
-    
+
     let localProjects: Project[] = JSON.parse(localStorage.getItem('Projects'));
 
     if (localProjects) {

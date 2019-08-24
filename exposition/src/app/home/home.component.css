@@ -1,0 +1,8 @@
+.Foot a {
+  color: rgb(33,33,33);
+  text-decoration: none;
+}
+
+.Foot a:hover {
+  color: rebeccapurple;
+}
