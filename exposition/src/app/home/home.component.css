@@ -6,3 +6,15 @@
 .Foot a:hover {
   color: rebeccapurple;
 }
+
+.h-90 {
+  height: 90% !important;
+}
+
+.h-10 {
+  height: 10% !important;
+}
+
+app-project-preview{
+  cursor: pointer;
+}

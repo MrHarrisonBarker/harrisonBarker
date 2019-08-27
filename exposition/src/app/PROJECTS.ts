@@ -22,7 +22,7 @@ export const projects: Project[] = [{
     Repo: "https://github.com/MrHarrisonBarker/NotReddit",
     Image: "assets/reddit.jpg",
     ImagePreview: "assets/redditPrev.png",
-    Technologies: ["HTML","CSS","JavaScript","Express JS", "Node.js", "Mongo Db", "Angular", "Bootstrap"],
+    Technologies: ["HTML", "CSS", "JavaScript", "Express JS", "Node.js", "Mongo Db", "Angular", "Bootstrap"],
     IsFinished: false,
   },
   {
@@ -34,7 +34,7 @@ export const projects: Project[] = [{
     Image: "../assets/river.png",
     ImagePreview: "assets/riverPrev.png",
     URL: "http://www.harrisonbarker.co.uk/river",
-    Technologies: ["HTML","CSS","JavaScript","Handbrake", "Bootstrap"],
+    Technologies: ["JavaScript", "Handbrake", "Bootstrap", "HTML", "CSS"],
     IsFinished: false,
   },
   {

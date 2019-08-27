@@ -17,11 +17,11 @@ html {
     margin: 0 0.1rem;
     color: white !important;
     background-color: rgb(33, 33, 33);
-    /* transition: transform 1s; */
+     transition: transform 100ms, margin-left 100ms, margin-right 100ms !important;
 }
 
 .CustomBadge:hover {
     transform: scale(1.1);
-    margin: 0 0.2rem;
+    margin: 0 0.3rem;
     cursor: pointer;
 }
