@@ -3,17 +3,21 @@
 </div>
 
 
-<div class="container h-90">
-  <div class="row" id="Projects">
+<div class="container h-90" id="Projects">
+  <div class="row justify-content-center align-items-center">
+    <div class="display-4" id="ProjectTitle">Projects</div>
+  </div>
+  <div class="row">
     <app-project-preview *ngFor="let project of projects" [project]="project"
-      class="col-12 col-md-6 col-lg-6 col-xl-4 my-3"></app-project-preview>
+                         class="col-12 col-md-6 col-lg-6 col-xl-4 my-3"></app-project-preview>
   </div>
 </div>
 
 <div class="container h-10">
   <div class="row h-100 justify-content-center align-items-center">
-  <div class="Foot ">
-    <div class="p-3"><a href="https://github.com/MrHarrisonBarker/harrisonBarker"> (¯`·._.··¸.-~*´¨¯¨`*·~-.,-(_Website Source_)-,.-~*´¨¯¨`*·~-.¸··._.·´¯)</a></div>
-  </div>
+    <div class="Foot">
+      <div class="p-3"><a href="https://github.com/MrHarrisonBarker/harrisonBarker"> (¯`·._.··¸.-~*´¨¯¨`*·~-.,-(_Website
+        Source_)-,.-~*´¨¯¨`*·~-.¸··._.·´¯)</a></div>
+    </div>
   </div>
 </div>

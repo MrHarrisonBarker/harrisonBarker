@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, ElementRef, HostListener, OnInit, TemplateRef, ViewChild} from '@angular/core';
 
 @Component({
   selector: 'app-details',
@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DetailsComponent implements OnInit {
 
+  public isBioOpen: boolean = false;
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  eventHandler() {
+    this.isBioOpen = !this.isBioOpen;
   }
 
 }

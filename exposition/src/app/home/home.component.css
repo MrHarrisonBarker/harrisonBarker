@@ -18,3 +18,7 @@
 app-project-preview{
   cursor: pointer;
 }
+
+#ProjectTitle {
+  margin: 0.5rem auto;
+}

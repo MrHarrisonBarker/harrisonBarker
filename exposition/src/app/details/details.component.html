@@ -6,7 +6,7 @@
           <div class="clearfix">
             <div class="float-left">
               <h1 class="display-4">Harrison Barker</h1>
-              <hr />
+              <hr/>
               <a href="https://twitter.com/Harrison_png" class="SocialLink" target="_blank">
                 <p class="lead"><i id="twitter" class="fab fa-twitter socialIcon"></i>@Harrison_png
                 </p>
@@ -22,16 +22,47 @@
                 <p class="lead"><i id="mail" class="far fa-envelope socialIcon"></i>mail@harrisonbarker.co.uk</p>
               </a>
             </div>
+
             <div class="float-right">
               <img id="profileImage" src="../../assets/profile.jpg">
             </div>
           </div>
+
+          <div id="Bio" class="collapse shadow-sm container">
+            <div class="row">
+              <div class="col">
+                <div class="display-4 p-3">About</div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <div class="p-3 text-left">
+                  I'm a nerd and have always had a passionate interest in technology and how it works and more
+                  importantly
+                  what was the thought process and the decisions made to get to the point of a finished product.
+                  <br>
+                  This passion for technology has guided me through my educational career and resulted in A-levels in
+                  physics,
+                  computer science and electronics and completing the first year of an undergraduate degree in computer
+                  science.
+                  <br>
+                  I also have passions and great joy for snowboarding, film and lasers.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row py-2 justify-content-center align-items-center">
+            <a class="ProjectsLink" data-toggle="collapse" href="#Bio" (click)="eventHandler()"><i
+              [id]="isBioOpen ? 'BioLinkRot' : 'BioLink'" class="fas fa-arrow-down"></i> Bio</a>
+          </div>
+
         </div>
       </div>
     </div>
   </div>
   <div class="row h-5 justify-content-center align-items-center">
-        <a href="#Projects" class="ProjectsLink"><i class="fas fa-arrow-down"></i></a>
+    <a href="#Projects" class="ProjectsLink"><i class="fas fa-arrow-down"></i></a>
   </div>
 
 </div>

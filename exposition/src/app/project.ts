@@ -11,6 +11,8 @@ export class Project {
     Image?: string;
     ImagePreview?: string;
 
+    CompletionDate?: Date;
+
     IsFinished: boolean;
 
     Technologies?: string[];

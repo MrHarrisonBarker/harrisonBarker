@@ -37,11 +37,25 @@
 #profileImage {
     width: 90px;
     border-radius: 50%;
-    transition: transform .2s;
+    transition: transform 200ms, border-radius 500ms;
 }
 
 #profileImage:hover {
     transform: scale(1.1);
+    border-radius: 2%;
+}
+
+#Bio {
+  background-color: #e2e2e2;
+}
+
+#BioLink {
+  transition: transform 200ms;
+}
+
+#BioLinkRot {
+  transform: rotate(180deg);
+  transition: transform 200ms;
 }
 
 .h-95 {
@@ -54,8 +68,10 @@
 
 .ProjectsLink {
     color: rgb(33, 33, 33);
+  text-decoration: none;
 }
 
 .CustomJumbo {
   border-radius: 0;
 }
+
