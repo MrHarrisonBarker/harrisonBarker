@@ -10,6 +10,7 @@ import { ShadowDirective } from './shadow.directive';
 import { DetailsComponent } from './details/details.component';
 import {MarkdownModule, MarkedOptions, MarkedRenderer} from 'ngx-markdown';
 import { HttpClientModule } from '@angular/common/http';
+import {JwBootstrapSwitchNg2Module} from "jw-bootstrap-switch-ng2";
 
 @NgModule({
   declarations: [
@@ -41,6 +42,7 @@ import { HttpClientModule } from '@angular/common/http';
         }
       }
     }),
+    JwBootstrapSwitchNg2Module,
   ],
   providers: [],
   bootstrap: [AppComponent]

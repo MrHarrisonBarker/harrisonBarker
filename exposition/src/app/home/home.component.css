@@ -22,3 +22,17 @@ app-project-preview{
 #ProjectTitle {
   margin: 0.5rem auto;
 }
+
+.bootstrap-switch-CustomOn {
+  color: white;
+  background: #6cc644;
+}
+
+.bootstrap-switch-custom-off {
+  color: white;
+  background: rebeccapurple;
+}
+
+.bootstrap-switch-handle-off .bootstrap-switch-custom {
+  background: red;
+}

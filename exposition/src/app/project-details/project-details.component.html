@@ -13,7 +13,10 @@
         <div class="card-body">
           <div class="h2">{{project.Name}}</div>
 
-          <div class="h4"><i>{{project.LogLine}}</i></div>
+          <div class="clearfix">
+            <div class="h4 float-left"><i>{{project.LogLine}}</i></div>
+            <div class="h5 float-right" *ngIf="project.CompletionDate"><i>Finished: {{project.CompletionDate | date }}</i></div>
+          </div>
 
           <div class="p">{{project.Description}}</div>
 
